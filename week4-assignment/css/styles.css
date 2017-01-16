@@ -1,0 +1,129 @@
+body{
+	font-size: 16px;
+	color: #888888;
+	background: url(../images/seigaiha.png);
+	font-family: 'Roboto', sans-serif; 
+}
+
+#header-nav{
+	background-color: #fff;
+	border-radius: 0;
+	border-bottom: 1px solid #999999;
+}
+
+.navbar-brand{
+	padding-top: 15px;
+}
+
+.navbar-brand h1{
+	font-family: 'Roboto', sans-serif;
+	color: #7ebf00;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-top: 5px;
+	margin-bottom: 0;
+	line-height: .75;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus{
+	text-decoration: none;
+}
+
+#nav-list a{
+	text-align: center;
+}
+
+#nav-list a:hover{
+	color: #7ebf00;
+}
+
+.navbar-header button.navbar-toggle{
+	clear: both;
+	margin-top: -30px;
+}
+
+/*Header ends*/
+
+/*main content*/
+.heading-title h1{
+	text-align: center;
+	color: #333333;
+	font-weight: 600;
+}
+
+.section{
+	background-color: #f9fbff;
+	border: 1px solid black;
+	position: relative;
+	min-height: 200px;
+	margin-right: 25px;
+	margin-left: auto;
+	margin-bottom: 15px;
+	padding: 20px;
+	padding-top: 10px;
+	/*padding-top: 20px;*/
+	box-sizing: border-box;
+	min-width: 300px;
+	overflow: hidden;
+}	
+
+.chicken-tile h3, .beef-tile h3, .sushi-tile h3{
+
+	text-align: center;
+	font-size: 1.7em;
+	margin-top: 5px;
+	color: #7ebf00;
+	font-weight: 600;
+
+}
+
+
+
+/*START RESPONSIVE CODE*/
+
+/*Large devices only*/
+@media(min-width: 1200px){
+
+	.section{
+		margin: 10px auto 10px;
+	}
+
+}
+
+/*desktop*/
+@media (min-width: 992px) and (max-width: 1199px){
+
+	.section{
+		margin: 10px auto 10px;
+	}
+
+}
+
+
+/*tablet*/
+@media (min-width: 768px) and (max-width: 991px){
+
+	.section{
+		margin: 10px auto 10px;
+	}
+
+}
+
+
+/*Mobile Devices*/
+@media (max-width: 479px){
+	/*header*/
+	.navbar-brand h1{ /*restaurant name*/
+		padding-top: 5px;
+		font-size: 6vw;
+	}
+
+	.section{
+		min-width: 50%;
+		margin: 10px auto 10px;
+	}
+
+}
+
+/*END RESPONSIVE CODE*/
