@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-=======
-
->>>>>>> assignment 4 added
 (function (window) {
 	var helloSpeaker = {};
 	helloSpeaker.speaker = "Hello ";
